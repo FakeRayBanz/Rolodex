@@ -13,6 +13,7 @@
 		5551F06C28A71A4200A7B1DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5551F06B28A71A4200A7B1DB /* Preview Assets.xcassets */; };
 		5551F06E28A71A4200A7B1DB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5551F06D28A71A4200A7B1DB /* Persistence.swift */; };
 		5551F07128A71A4200A7B1DB /* Rolodex.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5551F06F28A71A4200A7B1DB /* Rolodex.xcdatamodeld */; };
+		5551F07928A7235D00A7B1DB /* RolodexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5551F07828A7235D00A7B1DB /* RolodexView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5551F06D28A71A4200A7B1DB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		5551F07028A71A4200A7B1DB /* Rolodex.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rolodex.xcdatamodel; sourceTree = "<group>"; };
 		5551F07228A71A4200A7B1DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5551F07828A7235D00A7B1DB /* RolodexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolodexView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				5551F06428A71A4100A7B1DB /* RolodexApp.swift */,
 				5551F06628A71A4100A7B1DB /* ContentView.swift */,
+				5551F07828A7235D00A7B1DB /* RolodexView.swift */,
 				5551F06828A71A4200A7B1DB /* Assets.xcassets */,
 				5551F06D28A71A4200A7B1DB /* Persistence.swift */,
 				5551F07228A71A4200A7B1DB /* Info.plist */,
@@ -147,6 +150,7 @@
 			files = (
 				5551F06E28A71A4200A7B1DB /* Persistence.swift in Sources */,
 				5551F07128A71A4200A7B1DB /* Rolodex.xcdatamodeld in Sources */,
+				5551F07928A7235D00A7B1DB /* RolodexView.swift in Sources */,
 				5551F06728A71A4100A7B1DB /* ContentView.swift in Sources */,
 				5551F06528A71A4100A7B1DB /* RolodexApp.swift in Sources */,
 			);

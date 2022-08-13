@@ -13,7 +13,7 @@ struct RolodexApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RolodexView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
