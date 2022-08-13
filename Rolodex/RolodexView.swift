@@ -8,22 +8,34 @@
 import SwiftUI
 
 struct RolodexView: View {
+    @State var greenIndex:Double = 0.0
     var body: some View {
-        ScrollView {
-            RoundedRectangle(cornerRadius: 10)
-                .frame(width: 350, height: 250)
-            RoundedRectangle(cornerRadius: 10)
-                .fill(Color.blue)
-                .frame(width: 350, height: 250)
-            RoundedRectangle(cornerRadius: 10)
-                .fill(Color.orange)
-                .frame(width: 350, height: 250)
-            RoundedRectangle(cornerRadius: 10)
-                .fill(Color.purple)
-                .frame(width: 350, height: 250)
-            RoundedRectangle(cornerRadius: 10)
-                .fill(Color.green)
-                .frame(width: 350, height: 250)
+        VStack {
+            ZStack {
+                RoundedRectangle(cornerRadius: 10)
+                    .frame(width: 350, height: 250)
+                RoundedRectangle(cornerRadius: 10)
+                    .fill(Color.blue)
+                    .frame(width: 350, height: 250)
+                RoundedRectangle(cornerRadius: 10)
+                    .fill(Color.orange)
+                    .frame(width: 350, height: 250)
+                RoundedRectangle(cornerRadius: 10)
+                    .fill(Color.purple)
+                    .frame(width: 350, height: 250)
+                RoundedRectangle(cornerRadius: 10)
+                    .fill(Color.green)
+                    .frame(width: 350, height: 250)
+                    .zIndex(greenIndex)
+                    .onTapGesture {
+                        withAnimation(.easeInOut) {
+                            greenIndex = -1                            
+                        }
+                    }
+            }
+            Button("Test") {
+                
+            }
         }
     }
 }
